@@ -101,6 +101,151 @@ var themes = {
       "sentence": "Nous avons réservé une table pour deux.",
       "explanation": "'Réservé' = reserved. 'Pour deux' = for two people.",
       "translation": "Translation unavailable."
+    },
+    {
+      "sentence": "Client: Bonjour, je voudrais une table pour deux, s’il vous plaît.\nServeur: Bien sûr, suivez-moi.",
+      "explanation": "'Je voudrais' is a polite way to ask. 'Suivez-moi' = follow me.",
+      "translation": "Customer: Hello, I’d like a table for two, please.\nWaiter: Of course, follow me."
+    },
+    {
+      "sentence": "Client: La carte, s’il vous plaît.\nServeur: La voici, prenez votre temps.",
+      "explanation": "'La voici' = here it is. 'Prenez votre temps' = take your time.",
+      "translation": "Customer: The menu, please.\nWaiter: Here it is, take your time."
+    },
+    {
+      "sentence": "Client: Quel plat recommandez-vous ?\nServeur: Le confit de canard est excellent.",
+      "explanation": "'Recommandez-vous' = do you recommend. A formal structure.",
+      "translation": "Customer: What dish do you recommend?\nWaiter: The duck confit is excellent."
+    },
+    {
+      "sentence": "Client: Je suis allergique aux noix. Ce plat en contient-il ?\nServeur: Non, ce plat est sans noix.",
+      "explanation": "'En contient-il' = does it contain any. 'Sans noix' = without nuts.",
+      "translation": "Customer: I'm allergic to nuts. Does this dish contain any?\nWaiter: No, it's nut-free."
+    },
+    {
+      "sentence": "Client: Un verre de vin rouge, s’il vous plaît.\nServeur: Très bien, tout de suite.",
+      "explanation": "'Un verre de' = a glass of. 'Tout de suite' = right away.",
+      "translation": "Customer: A glass of red wine, please.\nWaiter: Very well, right away."
+    },
+    {
+      "sentence": "Client: Est-ce que le menu est disponible en anglais ?\nServeur: Oui, je vous l’apporte.",
+      "explanation": "'Est-ce que' introduces a polite question. 'Je vous l’apporte' = I'll bring it to you.",
+      "translation": "Customer: Is the menu available in English?\nWaiter: Yes, I'll bring it to you."
+    },
+    {
+      "sentence": "Client: Je prendrai le plat du jour.\nServeur: Très bon choix.",
+      "explanation": "'Je prendrai' = I’ll have. Future tense used politely.",
+      "translation": "Customer: I’ll have the dish of the day.\nWaiter: Very good choice."
+    },
+    {
+      "sentence": "Client: Avez-vous des options végétariennes ?\nServeur: Oui, nous avons plusieurs plats végétariens.",
+      "explanation": "'Avez-vous' = do you have. 'Plats végétariens' = vegetarian dishes.",
+      "translation": "Customer: Do you have vegetarian options?\nWaiter: Yes, we have several vegetarian dishes."
+    },
+    {
+      "sentence": "Client: C’était délicieux, merci beaucoup.\nServeur: Merci à vous, ravi que cela vous ait plu.",
+      "explanation": "'Cela vous ait plu' = that you liked it. A polite past expression.",
+      "translation": "Customer: That was delicious, thank you very much.\nWaiter: Thank you, glad you enjoyed it."
+    },
+    {
+      "sentence": "Client: L’addition, s’il vous plaît.\nServeur: Je vous l’apporte tout de suite.",
+      "explanation": "Common phrase for asking the bill. 'Tout de suite' = right away.",
+      "translation": "Customer: The bill, please.\nWaiter: I’ll bring it right away."
+    },
+    {
+      "sentence": "Client: Puis-je payer par carte ?\nServeur: Oui, bien sûr.",
+      "explanation": "'Puis-je' is formal for 'may I'. 'Par carte' = by card.",
+      "translation": "Customer: May I pay by card?\nWaiter: Yes, of course."
+    },
+    {
+      "sentence": "Client: Avez-vous des desserts maison ?\nServeur: Oui, nous avons une tarte aux pommes faite maison.",
+      "explanation": "'Desserts maison' = homemade desserts. 'Fait maison' = homemade.",
+      "translation": "Customer: Do you have any homemade desserts?\nWaiter: Yes, we have a homemade apple tart."
+    },
+    {
+      "sentence": "Client: Où sont les toilettes, s’il vous plaît ?\nServeur: Juste au fond à gauche.",
+      "explanation": "Common practical phrase. 'Juste au fond à gauche' = at the back on the left.",
+      "translation": "Customer: Where is the restroom, please?\nWaiter: Just at the back on the left."
+    },
+    {
+      "sentence": "Client: Est-ce que ce fromage est pasteurisé ?\nVendeur: Oui, il est bien pasteurisé.",
+      "explanation": "Useful question at a market or shop. 'Bien' adds confirmation.",
+      "translation": "Customer: Is this cheese pasteurized?\nSeller: Yes, it’s definitely pasteurized."
+    },
+    {
+      "sentence": "Client: Combien coûtent ces pommes ?\nVendeur: Deux euros le kilo.",
+      "explanation": "'Combien coûtent' = how much do they cost. 'Le kilo' = per kilogram.",
+      "translation": "Customer: How much do these apples cost?\nSeller: Two euros per kilo."
+    },
+    {
+      "sentence": "Client: Je peux goûter ce fromage ?\nVendeur: Bien sûr, tenez.",
+      "explanation": "'Je peux goûter' = can I taste. 'Tenez' = here you go.",
+      "translation": "Customer: Can I taste this cheese?\nSeller: Of course, here you go."
+    },
+    {
+      "sentence": "Client: Vous avez des œufs frais ?\nVendeur: Oui, ils viennent de la ferme d’à côté.",
+      "explanation": "'D’à côté' = nearby. 'Viennent de' = come from.",
+      "translation": "Customer: Do you have fresh eggs?\nSeller: Yes, they come from a nearby farm."
+    },
+    {
+      "sentence": "Client: Ce vin est-il sec ou doux ?\nVendeur: Celui-ci est plutôt sec.",
+      "explanation": "'Sec' = dry, 'doux' = sweet. Talking about wine taste.",
+      "translation": "Customer: Is this wine dry or sweet?\nSeller: This one is rather dry."
+    },
+    {
+      "sentence": "Client: Avez-vous du pain complet ?\nVendeur: Oui, il est juste là.",
+      "explanation": "'Pain complet' = whole grain bread. 'Juste là' = right there.",
+      "translation": "Customer: Do you have whole grain bread?\nSeller: Yes, it’s right there."
+    },
+    {
+      "sentence": "Client: Je vais prendre un kilo de tomates.\nVendeur: Voilà, un kilo de tomates fraîches.",
+      "explanation": "'Je vais prendre' = I’ll take. 'Voilà' = here you go.",
+      "translation": "Customer: I’ll take a kilo of tomatoes.\nSeller: Here you go, a kilo of fresh tomatoes."
+    },
+    {
+      "sentence": "Client: Est-ce que vous avez de la confiture maison ?\nVendeur: Oui, à la fraise et à l’abricot.",
+      "explanation": "'Confiture maison' = homemade jam. 'À la fraise' = strawberry.",
+      "translation": "Customer: Do you have any homemade jam?\nSeller: Yes, strawberry and apricot."
+    },
+    {
+      "sentence": "Client: Ce plat est-il très épicé ?\nServeur: Non, il est plutôt doux.",
+      "explanation": "'Épicé' = spicy, 'doux' = mild.",
+      "translation": "Customer: Is this dish very spicy?\nWaiter: No, it's rather mild."
+    },
+    {
+      "sentence": "Client: Puis-je avoir un peu plus de pain ?\nServeur: Bien sûr, je vous apporte ça.",
+      "explanation": "'Un peu plus de' = a little more. 'Je vous apporte' = I’ll bring it to you.",
+      "translation": "Customer: Could I have a bit more bread?\nWaiter: Of course, I’ll bring it."
+    },
+    {
+      "sentence": "Client: Ce plat contient-il du gluten ?\nServeur: Oui, il en contient malheureusement.",
+      "explanation": "Useful for allergies. 'Il en contient' = it contains some.",
+      "translation": "Customer: Does this dish contain gluten?\nWaiter: Yes, unfortunately it does."
+    },
+    {
+      "sentence": "Client: Avez-vous une formule déjeuner ?\nServeur: Oui, entrée, plat et dessert pour 15 euros.",
+      "explanation": "'Formule déjeuner' = lunch menu deal. 'Entrée, plat, dessert' = course structure.",
+      "translation": "Customer: Do you have a lunch menu?\nWaiter: Yes, starter, main, and dessert for 15 euros."
+    },
+    {
+      "sentence": "Client: Ce fromage est-il fort ?\nVendeur: Il a un goût prononcé, oui.",
+      "explanation": "'Fort' = strong flavor. 'Goût prononcé' = pronounced taste.",
+      "translation": "Customer: Is this cheese strong?\nSeller: It has a pronounced flavor, yes."
+    },
+    {
+      "sentence": "Client: Vous acceptez les tickets restaurant ?\nVendeur: Oui, sans problème.",
+      "explanation": "'Tickets restaurant' = meal vouchers. 'Sans problème' = no problem.",
+      "translation": "Customer: Do you accept meal vouchers?\nSeller: Yes, no problem."
+    },
+    {
+      "sentence": "Client: Je n’ai pas de monnaie.\nVendeur: Pas de souci, on peut faire l’appoint.",
+      "explanation": "'Monnaie' = change. 'Faire l’appoint' = round the amount.",
+      "translation": "Customer: I don’t have change.\nSeller: No problem, we can round it."
+    },
+    {
+      "sentence": "Client: Est-ce que je peux commander à emporter ?\nServeur: Oui, bien sûr.",
+      "explanation": "'À emporter' = to take away / takeaway.",
+      "translation": "Customer: Can I order to go?\nWaiter: Yes, of course."
     }
   ],
   "museum": [
