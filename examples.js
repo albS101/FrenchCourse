@@ -307,11 +307,6 @@ var themes = {
       "translation": "Is the European Union popular in France?"
     },
     {
-      "sentence": "Qu’est-ce que vous pensez de l’immigration en Europe ?",
-      "explanation": "Open-ended, polite discussion question.",
-      "translation": "What do you think about immigration in Europe?"
-    },
-    {
       "sentence": "Les élections européennes ont lieu tous les cinq ans.",
       "explanation": "'Ont lieu' = take place. 'Tous les cinq ans' = every five years.",
       "translation": "The European elections take place every five years."
