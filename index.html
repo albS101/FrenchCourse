@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>French Sentence Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>French Sentence Explorer</h1>
+    <div id="nav-buttons">
+      <button class="theme-btn travel" onclick="selectTheme('travel')">Travel</button>
+      <button class="theme-btn food" onclick="selectTheme('food')">Food</button>
+      <button class="theme-btn museum" onclick="selectTheme('museum')">Museum</button>
+      <button class="theme-btn politics" onclick="selectTheme('politics')">Politics</button>
+      <button class="theme-btn science" onclick="selectTheme('science')">Science</button>
+      <button class="theme-btn cinema" onclick="selectTheme('cinema')">Cinema</button>
+      <button class="theme-btn avignon" onclick="selectTheme('avignon')">Avignon</button>
+      <button class="theme-btn random" onclick="selectTheme('random')">Random</button>
+    </div>
+  </header>
+  <main>
+    <div id="sentence" class="sentence-box"></div>
+    <div id="explanation" class="explanation-box"></div>
+    <div id="translation" class="translation-box"></div>
+    <div class="controls">
+      <button onclick="showNext()">Next</button>
+      <button onclick="showRandom()">Random Sentence</button>
+    </div>
+  </main>
+  <script src="examples.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
