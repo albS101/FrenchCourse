@@ -16,13 +16,22 @@
       <button class="theme-btn science" onclick="selectTheme('science')">Science</button>
       <button class="theme-btn cinema" onclick="selectTheme('cinema')">Cinema</button>
       <button class="theme-btn avignon" onclick="selectTheme('avignon')">Avignon</button>
+      <button class="theme-btn history" onclick="selectTheme('history')">History</button>
       <button class="theme-btn random" onclick="selectTheme('random')">Random</button>
+    </div>
+    <div id="tools">
+      <label><input type="checkbox" id="toggleTranslation" checked> Show Translation</label>
+      <label><input type="checkbox" id="toggleQuiz"> Quiz Mode</label>
     </div>
   </header>
   <main>
     <div id="sentence" class="sentence-box"></div>
+    <div class="audio-btn" onclick="playAudio()">🔊</div>
     <div id="explanation" class="explanation-box"></div>
     <div id="translation" class="translation-box"></div>
+    <div id="reveal" class="reveal-box">
+      <button onclick="revealTranslation()">Reveal Translation</button>
+    </div>
     <div class="controls">
       <button onclick="showNext()">Next</button>
       <button onclick="showRandom()">Random Sentence</button>

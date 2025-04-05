@@ -259,6 +259,158 @@ var themes = {
       "translation": "We talked about new discoveries in biology."
     }
   ],
+  "history": [
+    {
+      "sentence": "La Révolution française a commencé en 1789.",
+      "explanation": "A simple past tense statement about a key historical event.",
+      "translation": "The French Revolution started in 1789."
+    },
+    {
+      "sentence": "Napoléon Bonaparte est devenu empereur en 1804.",
+      "explanation": "'Devenu' is the past participle of 'devenir' with être.",
+      "translation": "Napoleon Bonaparte became emperor in 1804."
+    },
+    {
+      "sentence": "La Bastille était une prison célèbre à Paris.",
+      "explanation": "'Était' is the imperfect tense. Used for background descriptions.",
+      "translation": "The Bastille was a famous prison in Paris."
+    },
+    {
+      "sentence": "La Première Guerre mondiale a duré de 1914 à 1918.",
+      "explanation": "'A duré' = lasted. Use 'de ... à ...' for date ranges.",
+      "translation": "World War I lasted from 1914 to 1918."
+    },
+    {
+      "sentence": "La Seconde Guerre mondiale a eu un impact mondial.",
+      "explanation": "'A eu' = had (past tense of 'avoir').",
+      "translation": "World War II had a global impact."
+    },
+    {
+      "sentence": "Charles de Gaulle a dirigé la Résistance française.",
+      "explanation": "'A dirigé' = led. Historical figure in WWII.",
+      "translation": "Charles de Gaulle led the French Resistance."
+    },
+    {
+      "sentence": "Le roi Louis XVI a été exécuté en 1793.",
+      "explanation": "'A été exécuté' = was executed (passive voice).",
+      "translation": "King Louis XVI was executed in 1793."
+    },
+    {
+      "sentence": "Marie Curie a reçu deux prix Nobel.",
+      "explanation": "Famous scientist. 'A reçu' = received.",
+      "translation": "Marie Curie received two Nobel Prizes."
+    },
+    {
+      "sentence": "La Déclaration des Droits de l’Homme a été signée en 1789.",
+      "explanation": "Important document. 'A été signée' = was signed.",
+      "translation": "The Declaration of the Rights of Man was signed in 1789."
+    },
+    {
+      "sentence": "La France a aboli la peine de mort en 1981.",
+      "explanation": "'A aboli' = abolished. 'Peine de mort' = death penalty.",
+      "translation": "France abolished the death penalty in 1981."
+    },
+    {
+      "sentence": "La Tour Eiffel a été construite pour l’Exposition universelle de 1889.",
+      "explanation": "'A été construite' = was built. Passive voice.",
+      "translation": "The Eiffel Tower was built for the 1889 World's Fair."
+    },
+    {
+      "sentence": "Le Moyen Âge a duré plusieurs siècles.",
+      "explanation": "'Plusieurs siècles' = several centuries. Talking about long historical periods.",
+      "translation": "The Middle Ages lasted several centuries."
+    },
+    {
+      "sentence": "La Renaissance a marqué un renouveau artistique en Europe.",
+      "explanation": "'A marqué' = marked. Used to define historical eras.",
+      "translation": "The Renaissance marked an artistic revival in Europe."
+    },
+    {
+      "sentence": "Le château de Versailles est un symbole de la monarchie française.",
+      "explanation": "Common present tense structure about a historical place.",
+      "translation": "The Palace of Versailles is a symbol of the French monarchy."
+    },
+    {
+      "sentence": "Je visite souvent les musées pour en apprendre plus sur l’histoire.",
+      "explanation": "'En apprendre plus sur' = to learn more about.",
+      "translation": "I often visit museums to learn more about history."
+    },
+    {
+      "sentence": "L’esclavage a été aboli dans les colonies françaises en 1848.",
+      "explanation": "'A été aboli' = was abolished. Passive form.",
+      "translation": "Slavery was abolished in the French colonies in 1848."
+    },
+    {
+      "sentence": "La Réforme protestante a changé l’histoire de l’Europe.",
+      "explanation": "'A changé' = changed. Talking about historical impact.",
+      "translation": "The Protestant Reformation changed the history of Europe."
+    },
+    {
+      "sentence": "L’Empire romain a laissé de nombreuses traces en France.",
+      "explanation": "'A laissé' = left. Refers to Roman ruins still visible today.",
+      "translation": "The Roman Empire left many traces in France."
+    },
+    {
+      "sentence": "Le Code Napoléon est encore utilisé aujourd’hui.",
+      "explanation": "Historical laws still influencing modern France.",
+      "translation": "The Napoleonic Code is still used today."
+    },
+    {
+      "sentence": "Le traité de Versailles a mis fin à la Première Guerre mondiale.",
+      "explanation": "'A mis fin à' = ended.",
+      "translation": "The Treaty of Versailles ended World War I."
+    },
+    {
+      "sentence": "Le Général de Gaulle est devenu président en 1959.",
+      "explanation": "Another milestone in modern French history.",
+      "translation": "General de Gaulle became president in 1959."
+    },
+    {
+      "sentence": "La commune de Paris a duré 72 jours en 1871.",
+      "explanation": "'A duré' = lasted. Short-lived political event.",
+      "translation": "The Paris Commune lasted 72 days in 1871."
+    },
+    {
+      "sentence": "Je trouve l’histoire de la Révolution fascinante.",
+      "explanation": "Useful opinion phrase: 'Je trouve... fascinant(e)'.",
+      "translation": "I find the history of the Revolution fascinating."
+    },
+    {
+      "sentence": "Le musée de l’Armée se trouve aux Invalides à Paris.",
+      "explanation": "'Se trouve' = is located. A way to talk about places.",
+      "translation": "The Army Museum is located at Les Invalides in Paris."
+    },
+    {
+      "sentence": "Les Gaulois ont résisté à l’invasion romaine.",
+      "explanation": "Simple past action in French history.",
+      "translation": "The Gauls resisted the Roman invasion."
+    },
+    {
+      "sentence": "Vercingétorix est un héros national en France.",
+      "explanation": "Famous Gallic leader. Present tense statement.",
+      "translation": "Vercingetorix is a national hero in France."
+    },
+    {
+      "sentence": "La Révolution industrielle a transformé les villes françaises.",
+      "explanation": "'A transformé' = transformed. Talking about societal changes.",
+      "translation": "The Industrial Revolution transformed French cities."
+    },
+    {
+      "sentence": "La liberté, l’égalité et la fraternité sont les valeurs de la République.",
+      "explanation": "These are the core values of modern France.",
+      "translation": "Liberty, equality and fraternity are the values of the Republic."
+    },
+    {
+      "sentence": "La France a connu de nombreuses révolutions.",
+      "explanation": "'A connu' = experienced. 'De nombreuses' = many.",
+      "translation": "France has experienced many revolutions."
+    },
+    {
+      "sentence": "Le 14 juillet est la fête nationale en France.",
+      "explanation": "'Fête nationale' = national holiday. Celebrates the storming of the Bastille.",
+      "translation": "July 14th is France's national holiday."
+    }
+    ],
   "cinema": [
     {
       "sentence": "J’ai vu un film incroyable hier soir.",
