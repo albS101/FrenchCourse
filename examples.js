@@ -1,6 +1,151 @@
 var themes = {
   "travel": [
     {
+      "sentence": "Voyageur: Bonjour, un aller simple pour Lyon, s’il vous plaît.\nGuichetier: Voilà, ça fera 25 euros.",
+      "explanation": "'Aller simple' = one-way ticket. 'Ça fera' = that will be (cost).",
+      "translation": "Traveler: Hello, one one-way ticket to Lyon, please.\nTicket agent: Here you go, that will be 25 euros."
+    },
+    {
+      "sentence": "Voyageur: Où est le quai numéro 5 ?\nAgent: C’est juste là, après l’escalier à droite.",
+      "explanation": "'Quai' = platform. 'Après l’escalier' = after the stairs.",
+      "translation": "Traveler: Where is platform number 5?\nAgent: It’s right there, after the stairs on the right."
+    },
+    {
+      "sentence": "Touriste: Comment aller à la Gare du Nord depuis ici ?\nPassant: Prenez la ligne 4 du métro, direction Porte de Clignancourt.",
+      "explanation": "Asking directions in Paris. 'Prenez la ligne' = take line.",
+      "translation": "Tourist: How do I get to Gare du Nord from here?\nLocal: Take metro line 4, direction Porte de Clignancourt."
+    },
+    {
+      "sentence": "Passager: Est-ce que ce train va à Marseille ?\nContrôleur: Oui, mais il ne s’arrête qu’à la gare Saint-Charles.",
+      "explanation": "'Ne s’arrête qu’à' = only stops at. Talking to train staff.",
+      "translation": "Passenger: Does this train go to Marseille?\nConductor: Yes, but it only stops at Saint-Charles station."
+    },
+    {
+      "sentence": "Voyageur: Où puis-je acheter un ticket de métro ?\nAgent: Il y a une borne juste à l’entrée.",
+      "explanation": "'Borne' = machine. 'Juste à l’entrée' = right at the entrance.",
+      "translation": "Traveler: Where can I buy a metro ticket?\nAgent: There’s a machine right at the entrance."
+    },
+    {
+      "sentence": "Touriste: Combien coûte un carnet de tickets ?\nAgent: C’est 17,35 euros pour 10 tickets.",
+      "explanation": "'Carnet' = pack. Common for Paris metro.",
+      "translation": "Tourist: How much is a booklet of tickets?\nAgent: It’s 17.35 euros for 10 tickets."
+    },
+    {
+      "sentence": "Client: J’ai réservé un Uber, il arrive dans 2 minutes.\nAmi: Super, on est prêts ?",
+      "explanation": "Simple travel coordination. 'Réservé' = booked.",
+      "translation": "Client: I booked an Uber, it arrives in 2 minutes.\nFriend: Great, are we ready?"
+    },
+    {
+      "sentence": "Voyageur: Y a-t-il un taxi disponible ici ?\nHôtelier: Oui, il y a une station juste devant l’hôtel.",
+      "explanation": "'Station de taxi' = taxi stand. 'Juste devant' = right in front.",
+      "translation": "Traveler: Is there a taxi available here?\nHotel staff: Yes, there's a stand right in front of the hotel."
+    },
+    {
+      "sentence": "Passager: Quel est le numéro de ma porte d’embarquement ?\nAgent: C’est la porte 22B.",
+      "explanation": "'Porte d’embarquement' = boarding gate.",
+      "translation": "Passenger: What is my boarding gate number?\nAgent: It's gate 22B."
+    },
+    {
+      "sentence": "Voyageur: À quelle heure part le train pour Bordeaux ?\nGuichetier: Il part à 14h45, voie 3.",
+      "explanation": "'Voie' = track. Common station phrase.",
+      "translation": "Traveler: What time does the train to Bordeaux leave?\nTicket agent: It leaves at 2:45 PM, track 3."
+    },
+    {
+      "sentence": "Client: Peut-on partager un taxi jusqu’à l’aéroport ?\nAutre client: Oui, bonne idée.",
+      "explanation": "'Partager un taxi' = share a taxi. 'Bonne idée' = good idea.",
+      "translation": "Client: Can we share a taxi to the airport?\nOther client: Yes, good idea."
+    },
+    {
+      "sentence": "Touriste: Est-ce qu’il y a un bus pour l’aéroport ?\nAgent: Oui, le bus 100 part toutes les 20 minutes.",
+      "explanation": "Practical airport transit info. 'Toutes les 20 minutes' = every 20 minutes.",
+      "translation": "Tourist: Is there a bus to the airport?\nAgent: Yes, bus 100 leaves every 20 minutes."
+    },
+    {
+      "sentence": "Passager: Combien de temps dure le trajet en RER jusqu’à l’aéroport ?\nAgent: Environ 40 minutes.",
+      "explanation": "'RER' is regional train around Paris. 'Dure' = lasts.",
+      "translation": "Passenger: How long is the RER trip to the airport?\nAgent: Around 40 minutes."
+    },
+    {
+      "sentence": "Voyageur: Est-ce que le billet inclut la correspondance ?\nGuichetier: Oui, c’est un billet combiné.",
+      "explanation": "'Correspondance' = transfer. 'Billet combiné' = combined ticket.",
+      "translation": "Traveler: Does the ticket include the transfer?\nTicket agent: Yes, it’s a combined ticket."
+    },
+    {
+      "sentence": "Client: Je vais à Montparnasse, c’est quelle ligne ?\nAgent: Ligne 6, direction Nation.",
+      "explanation": "Asking metro directions. 'Direction' = line destination.",
+      "translation": "Client: I'm going to Montparnasse, which line is it?\nAgent: Line 6, direction Nation."
+    },
+    {
+      "sentence": "Passager: Où se trouve la consigne pour les bagages ?\nAgent: À côté de la sortie sud.",
+      "explanation": "'Consigne' = luggage locker. 'Sortie sud' = south exit.",
+      "translation": "Passenger: Where is the baggage locker?\nAgent: Next to the south exit."
+    },
+    {
+      "sentence": "Client: Est-ce que ce taxi accepte la carte ?\nChauffeur: Oui, bien sûr.",
+      "explanation": "'Accepte la carte' = accepts card. Common for taxis.",
+      "translation": "Client: Does this taxi take card?\nDriver: Yes, of course."
+    },
+    {
+      "sentence": "Touriste: Le musée du Louvre est loin d’ici ?\nPassant: Non, c’est à deux stations de métro.",
+      "explanation": "'À deux stations' = two stops away.",
+      "translation": "Tourist: Is the Louvre far from here?\nLocal: No, it’s two metro stops away."
+    },
+    {
+      "sentence": "Client: Peut-on acheter un ticket à bord ?\nChauffeur: Non, il faut l’acheter avant.",
+      "explanation": "'À bord' = onboard. 'Il faut' = you must.",
+      "translation": "Client: Can I buy a ticket on board?\nDriver: No, you need to buy it beforehand."
+    },
+    {
+      "sentence": "Voyageur: Ce bus va-t-il à l’Opéra ?\nChauffeur: Oui, c’est l’arrêt après la gare.",
+      "explanation": "'Va-t-il à' = does it go to. 'Arrêt' = stop.",
+      "translation": "Traveler: Does this bus go to Opéra?\nDriver: Yes, it’s the stop after the station."
+    },
+    {
+      "sentence": "Client: Est-ce que le train est direct ?\nGuichetier: Non, il faut changer à Dijon.",
+      "explanation": "'Changer' = transfer. 'Direct' = without change.",
+      "translation": "Client: Is the train direct?\nTicket agent: No, you have to change at Dijon."
+    },
+    {
+      "sentence": "Passager: Où est l’arrêt pour la navette ?\nAgent: Devant la porte 3 du terminal.",
+      "explanation": "'Navette' = shuttle. 'Porte du terminal' = terminal gate.",
+      "translation": "Passenger: Where is the shuttle stop?\nAgent: In front of gate 3 of the terminal."
+    },
+    {
+      "sentence": "Client: Quel est le prix pour aller à l’aéroport en taxi ?\nChauffeur: Environ 55 euros, selon la circulation.",
+      "explanation": "'Selon la circulation' = depending on traffic.",
+      "translation": "Client: What’s the fare to the airport by taxi?\nDriver: Around 55 euros, depending on traffic."
+    },
+    {
+      "sentence": "Voyageur: Le métro fonctionne toute la nuit ?\nAgent: Non, il s’arrête vers 1h du matin.",
+      "explanation": "'Il s’arrête' = it stops. 'Vers' = around.",
+      "translation": "Traveler: Does the metro run all night?\nAgent: No, it stops around 1 AM."
+    },
+    {
+      "sentence": "Client: Peut-on prendre un ticket aller-retour ?\nGuichetier: Oui, c’est moins cher que deux simples.",
+      "explanation": "'Aller-retour' = round trip. 'Moins cher' = cheaper.",
+      "translation": "Client: Can I get a return ticket?\nAgent: Yes, it’s cheaper than two one-ways."
+    },
+    {
+      "sentence": "Touriste: Est-ce que je dois valider mon ticket ?\nAgent: Oui, avant de monter dans le train.",
+      "explanation": "'Valider' = validate/punch ticket.",
+      "translation": "Tourist: Do I need to validate my ticket?\nAgent: Yes, before boarding the train."
+    },
+    {
+      "sentence": "Client: Je veux aller au centre-ville. Quel bus dois-je prendre ?\nAgent: Le numéro 7, direction Hôtel de Ville.",
+      "explanation": "'Quel bus dois-je prendre' = which bus should I take?",
+      "translation": "Client: I want to go to the city center. Which bus should I take?\nAgent: Bus number 7, direction Hôtel de Ville."
+    },
+    {
+      "sentence": "Voyageur: Mon vol est en retard. Puis-je changer mon billet ?\nAgent: Oui, mais il y a des frais.",
+      "explanation": "'Vol en retard' = delayed flight. 'Des frais' = extra charge.",
+      "translation": "Traveler: My flight is delayed. Can I change my ticket?\nAgent: Yes, but there are fees."
+    },
+    {
+      "sentence": "Client: Où est le comptoir d’enregistrement ?\nAgent: Juste après les portes coulissantes à gauche.",
+      "explanation": "'Comptoir d’enregistrement' = check-in counter.",
+      "translation": "Client: Where is the check-in counter?\nAgent: Just past the sliding doors on the left."
+    },
+    {
       "sentence": "Je vais à la gare pour prendre le train.",
       "explanation": "We use 'à la' because 'gare' is feminine. 'Prendre le train' means 'to take the train'.",
       "translation": "I’m going to the station to catch the train."
